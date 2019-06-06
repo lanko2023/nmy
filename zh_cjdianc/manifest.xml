@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://www.we7.cc" versionCode="">
+	<application setting="false">
+		<name><![CDATA[志汇超级外卖餐饮小程序]]></name>
+		<identifie><![CDATA[zh_cjdianc]]></identifie>
+		<version><![CDATA[5.8.2]]></version>
+		<type><![CDATA[biz]]></type>
+		<ability><![CDATA[帮助餐饮企业降低成本、提高效率,实现顾客引流、会员沉淀、企业发展的经营目标。]]></ability>
+		<description><![CDATA[志汇-超级餐饮外卖小程序，专注于餐饮O2O的解决方案提供商,为餐厅提供整合线上线下资源整合、轻松实现O2O。本软件集点餐、收银、成本控制、管理、营销于一体的会营销的餐饮管理软件]]></description>
+		<author><![CDATA[淘宝柠檬鱼科技]]></author>
+		<url><![CDATA[https://shop486845690.taobao.com]]></url>
+	</application>
+	<platform>
+		<subscribes>
+		</subscribes>
+		<handles>
+		</handles>
+		<rule embed="false" />
+		<card embed="false" />
+		<supports>
+
+			<item type="wxapp" />
+		</supports>
+	</platform>
+	<bindings>
+
+		<page>
+
+			<entry title="首页" do="/zh_cjdianc/pages/index/index" state="" direct="" />
+
+		</page>
+	</bindings>
+	<permissions>
+	</permissions>
+	<install><![CDATA[anzhuang.php]]></install>
+	<uninstall><![CDATA[]]></uninstall>
+	<upgrade><![CDATA[gengxin.php]]></upgrade>
+</manifest>
